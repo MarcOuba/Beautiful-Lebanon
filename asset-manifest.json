@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Beautiful-Lebanon/static/css/main.a24f6599.css",
+    "main.js": "/Beautiful-Lebanon/static/js/main.e04fc6b5.js",
+    "index.html": "/Beautiful-Lebanon/index.html",
+    "main.a24f6599.css.map": "/Beautiful-Lebanon/static/css/main.a24f6599.css.map",
+    "main.e04fc6b5.js.map": "/Beautiful-Lebanon/static/js/main.e04fc6b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a24f6599.css",
+    "static/js/main.e04fc6b5.js"
+  ]
+}

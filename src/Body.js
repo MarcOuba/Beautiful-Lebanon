@@ -23,7 +23,7 @@ export default function Body(props){
     return(
         <div style={{ fontFamily: 'Poppins, sans-serif' }} className="Page-container">
 
-    <img src={props.places.img} />
+<img src={props.places.img} />
     <div className="Body-container">
     <p className="location-text">
         <FontAwesomeIcon className="location-icon" icon={faMapMarkerAlt}/>{props.places.location}

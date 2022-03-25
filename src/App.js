@@ -7,6 +7,14 @@ import Navbar from './Navbar';
 
 
  export default function App(){
+
+  const [darkMode,setDarkMode]=React.useState(true)
+
+  function toggleDarkMode(){
+    darkMode ?  document.body.style.backgroundColor="#100F16 " :  document.body.style.backgroundColor="#EEEEEE "
+    darkMode ?  document.body.style.color="#EEEEEE " :  document.body.style.color="#100F16 "
+    setDarkMode(prevMode => !prevMode)
+  }
       const elements=data.map(places =>
         {
             return(
@@ -20,9 +28,12 @@ import Navbar from './Navbar';
 return(
              
    <div>   
-   <Navbar />
+   <Navbar
+   darkMode={darkMode}
+   toggleDarkMode={toggleDarkMode}
+    />
     {elements}
-
+    
     </div>
 
    )

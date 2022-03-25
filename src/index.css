@@ -6,7 +6,7 @@ display: flex;
 
 }
 body{
-    background-color: white;
+    background-color: #EEEEEE ;
 }
 .Body-container{
     margin-left:30px;
@@ -67,34 +67,39 @@ img{
     position: relative;
     display: flex;
     top:-32px;
-    left:130px;
+    left:100px;
     color:rgb(83, 61, 61);
     width:130px;
 }
-#sun-icon{
-   
+
+.mode{
+    position:relative;
+    left:50px;
+    display: flex;
+}
+.icon{
+    font-size: 25px;
+    margin-right: 5px;
+}
+.sun-icon{
     color:yellow;
-    font-size: 1.2rem;
-    position: relative;
-        left:95px;
-    visibility: hidden;
-    }
-    #moon-icon{
-        color:black;
-        font-size: 1.2rem;
-        position: relative;
-        left:75px;
-        visibility: visible;
+}
+.moon-icon{
+    color:rgba(24, 23, 15, 0.933);
+}
+    .mode-button-darkMode{
        
+        height: 25px;
+        border-radius: 5px;
+        background-color:rgba(24, 23, 15, 0.933); 
+        color:cyan
     }
-    #mode-button{
-        position: relative;
-       left:80px;
-       background-color: black;
-       color:white;
-       height: 30px;
-       border-radius: 10px 10px 10px 10px;
+    .mode-button{
+        height: 25px;
+        border-radius: 5px;
+        cursor: pointer;
     }
+    
 
 
 /* DESKTOP /////////////////////////////////// */
@@ -107,34 +112,11 @@ img{
     object-fit:initial;
     border-radius:5px 5px 5px 5px;
 }
+.mode{
+margin-left: 150px;
+}
 
-#sun-icon{
-   
-    color:yellow;
-    font-size: 1.2rem;
-    position: absolute;
-    left:1140px;
-    visibility: visible;
-    }
-    #moon-icon{
-        color:black;
-        font-size: 1.2rem;
-        position: absolute;
-        left:1140px;
-        visibility: hidden;
-       
-    }
-    #mode-button{
-        position: relative;
-       left:400px;
-       background-color: black;
-       color:white;
-       height: 30px;
-       border-radius: 10px 10px 10px 10px;
-    }
-    #mode-button:hover{
-        cursor: pointer;
-    }
+    
 }
 
 
